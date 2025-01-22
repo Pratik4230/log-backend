@@ -7,7 +7,7 @@ import nodemailer from "nodemailer";
 import { v4 as uuidv4 } from "uuid";
 import mysql from "mysql2";
 import "dotenv/config";
-//
+//sample comment
 const app = express();
 
 app.use(

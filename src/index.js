@@ -7,7 +7,7 @@ import nodemailer from "nodemailer";
 import { v4 as uuidv4 } from "uuid";
 import mysql from "mysql2";
 import "dotenv/config";
-
+//
 const app = express();
 
 app.use(
@@ -54,7 +54,6 @@ const transporter = nodemailer.createTransport({
     pass: process.env.MAIL_PASS,
   },
 });
-
 
 // ✅ Middleware for Authentication
 const authenticate = async (req, res, next) => {
